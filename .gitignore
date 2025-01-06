@@ -23,3 +23,8 @@ go.work.sum
 
 # env file
 .env
+
+plugin/node_modules
+plugin/lib
+plugin/openrct2.d.ts
+openrct2-gui/lib

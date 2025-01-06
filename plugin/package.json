@@ -1,0 +1,23 @@
+{
+  "name": "openrct2-webui-socket",
+  "version": "0.0.1",
+  "description": "A socket interface for openrct2-webui to issue commands against.",
+  "main": "socket.ts",
+  "scripts": {
+    "build": "npm exec tsc",
+    "gettypes": "curl https://raw.githubusercontent.com/OpenRCT2/OpenRCT2/develop/distribution/openrct2.d.ts > openrct2.d.ts",
+    "clean": "rm -r {lib,node_modules,openrct2.d.ts}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/promaethius/openrct2-webui"
+  },
+  "keywords": [
+    "openrct2"
+  ],
+  "author": "Jonathan Bryant",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
