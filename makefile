@@ -10,7 +10,7 @@ build-plugin:
 build-openrct2-gui:
 	cd openrct2-gui && \
 	cp -r ../plugin/lib . && \
-	docker build .
+	docker build -t openrct2-gui .
 
 openrct2-gui: requirements-plugin build-plugin build-openrct2-gui
 

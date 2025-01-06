@@ -23,7 +23,7 @@ registerPlugin({
     authors: ['Jonathan Bryant'],
     type: 'remote',
     minApiVersion: 19,
-    targetApiVersion: 77,
+    targetApiVersion: 83,
     licence: 'MIT',
     main
 });
